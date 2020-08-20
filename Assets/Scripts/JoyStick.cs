@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
-public class JoyStick : MonoBehaviour//, IPointerDownHandler, IPointerUpHandler, IDragHandler
+public class JoyStick : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, IDragHandler
 {
     private Image JoystickBG;
     private Image touch;
@@ -35,10 +35,10 @@ public class JoyStick : MonoBehaviour//, IPointerDownHandler, IPointerUpHandler,
 
                      touch.rectTransform.anchoredPosition=new Vector3(InputDir.x*(JoystickBG.rectTransform.sizeDelta.x/2.5f),
                                                                     InputDir.y*(JoystickBG.rectTransform.sizeDelta.y/2.5f));
-                // if(!Shoot)
-                 //FindObjectOfType<Spaceship>().CanShoot=false;
-                 //if(Shoot)
-                // FindObjectOfType<Spaceship>().CanShoot=true;
+                 if(!Shoot)
+                 FindObjectOfType<Spaceship>().CanShoot=false;
+                 if(Shoot)
+                 FindObjectOfType<Spaceship>().CanShoot=true;
                  }
                  
                  
@@ -51,10 +51,10 @@ public class JoyStick : MonoBehaviour//, IPointerDownHandler, IPointerUpHandler,
 
     public void OnPointerUp(PointerEventData eventData)
     {
-      //  if(!Shoot)
-        InputDir=Vector3.zero;
-        //else
-        //FindObjectOfType<Spaceship>().CanShoot=false;
+        if(!Shoot)
+            InputDir=Vector3.zero;
+        else
+        FindObjectOfType<Spaceship>().CanShoot=false;
         touch.rectTransform.anchoredPosition=Vector3.zero;
     }
     
