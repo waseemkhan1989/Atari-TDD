@@ -579,3 +579,4 @@ F:\WK_Projects\Asteroids\obj\Debug\Assembly-CSharp-Editor.csproj.CoreCompileInpu
 F:\WK_Projects\Asteroids\obj\Debug\Assembly-CSharp-Editor.csproj.CopyComplete
 F:\WK_Projects\Asteroids\obj\Debug\Assembly-CSharp-Editor.dll
 F:\WK_Projects\Asteroids\obj\Debug\Assembly-CSharp-Editor.pdb
+F:\WK_Projects\Asteroids\Temp\bin\Debug\Assembly-CSharp.pdb

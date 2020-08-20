@@ -7,6 +7,7 @@ public class Bullet : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        // Force applied on the bullet in the downward direction
         GetComponent<Rigidbody2D>().AddForce(transform.up * 400f * (-1));
     }
 

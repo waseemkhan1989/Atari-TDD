@@ -35,7 +35,7 @@ public class Asteriods : MonoBehaviour
 
     public void CheckPosition()
     {
-        if(transform.position.x > 117 || transform.position.x < -117)
+        if(transform.position.x > 117 || transform.position.x < -117) 
             Destroy(gameObject);
         if(transform.position.y > 69 || transform.position.y < -69)
             Destroy(gameObject);

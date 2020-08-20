@@ -9,56 +9,51 @@ public class Spaceship : MonoBehaviour
     private Rigidbody2D rb;
     public float MoveSpeed;
     public float rotationSpeed;
-    
+    public bool MouseButtonPressed { get; set; }
+
     public JoyStick ShootJoystick;
     public JoyStick MoveJoystick;
-    
+
     public bool CanShoot;
     public float ShootRate;
     private float NextShoot;
-    //public Vector2 InputDir;
-    
-    //private SpaceshipEngine m_SpaceshipEngine;
 
-    
     // Start is called before the first frame update
     void Start()
     {
-        // use rigid body to move the spaceship
-       // m_SpaceshipEngine = this.gameObject.AddComponent<SpaceshipEngine>();
-       rb = GetComponent<Rigidbody2D>();
+        rb = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
-    void Update()
+    public void Update()
     {
-
         // If mouse is on the screen user wants to shoot
-        if (Input.GetMouseButton(0) && CanShoot
-                                    )
+        if (Input.GetMouseButton(0))
+        {
+            MouseButtonPressed = true;
+        }
+        
+        if (MouseButtonPressed && CanShoot)
         {
             if (NextShoot > 0)
                 NextShoot -= Time.deltaTime;
             if (NextShoot <= 0)
-                Shoot(); 
+                Shoot();
         }
+
         Movement();
-        Rotation();    
+        Rotation();
     }
 
+
+    // to move spaceship left, right, up and downward
     public void Movement()
     {
-         
-
-        // getting direction through arrow keys
-        //Vector2 InputDir = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
-        //rb.AddForce(InputDir * MoveSpeed);
-
         rb.AddForce(MoveJoystick.InputDir * MoveSpeed);
-        //m_SpaceshipEngine.AddForce();
     }
 
-    void Rotation()
+    //Time to rotate Spaceship within 360 degree
+    public void Rotation()
     {
         float angle = Mathf.Atan2(ShootJoystick.InputDir.y, ShootJoystick.InputDir.x) * Mathf.Rad2Deg + 90;
         Quaternion rotation = Quaternion.AngleAxis(angle, Vector3.forward);
@@ -66,32 +61,14 @@ public class Spaceship : MonoBehaviour
         transform.rotation = Quaternion.Lerp(transform.rotation, rotation, rotationSpeed * Time.deltaTime);
     }
 
+    // shoot bullets from spaceship
     public void Shoot()
     {
         NextShoot = ShootRate;
         GameObject bulletClone = Instantiate(bullet,
-            new Vector2(bullet.transform.position.x, bullet.transform.position.y), transform.rotation); 
+            new Vector2(bullet.transform.position.x, bullet.transform.position.y), transform.rotation);
         bulletClone.SetActive(true);
+        
         bulletClone.GetComponent<Bullet>().KillTheBullet();
     }
-
-
-
-    /*   void Update()
-    {
-        Movement(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
-       
-    }
-*/
-    /*public void Movement(float horizontal, float vertical)
-    {
-         
-
-        // getting direction through arrow keys
-        InputDir = new Vector2(horizontal, vertical);
-        rb.AddForce(InputDir * MoveSpeed);
-
-        //rb.AddForce(MoveJoystick.InputDir * MoveSpeed);
-        //m_SpaceshipEngine.AddForce();
-    }*/
 }
