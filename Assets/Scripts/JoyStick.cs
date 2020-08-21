@@ -4,12 +4,18 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
-public class JoyStick : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, IDragHandler
+public class JoyStick : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, IDragHandler, IJoyStick
 {
     private Image JoystickBG;
     private Image touch;
-    [HideInInspector]
-    public Vector3 InputDir;
+    
+    public Vector3 InputDir { get; set; }
+
+    public int test(bool a)
+    {
+        // does stuff
+        return -1;
+    }
     
     public bool Shoot=false;
     private void Start() 

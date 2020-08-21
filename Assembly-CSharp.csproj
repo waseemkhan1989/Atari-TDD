@@ -56,11 +56,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Asteriods.cs" />
+     <Compile Include="Assets\Asteroids.cs" />
      <Compile Include="Assets\Bullet.cs" />
      <Compile Include="Assets\GameManager.cs" />
+     <Compile Include="Assets\MockClasses\JoyStickMock.cs" />
+     <Compile Include="Assets\Scripts\IJoyStick.cs" />
      <Compile Include="Assets\Scripts\JoyStick.cs" />
      <Compile Include="Assets\Scripts\Spaceship.cs" />
+     <Compile Include="Assets\Spawner.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>F:/WK_Projects/Asteroids/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>

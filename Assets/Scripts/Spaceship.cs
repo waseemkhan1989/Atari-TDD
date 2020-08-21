@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 //using Assets.Editor;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class Spaceship : MonoBehaviour
 {
@@ -11,17 +12,23 @@ public class Spaceship : MonoBehaviour
     public float rotationSpeed;
     public bool MouseButtonPressed { get; set; }
 
-    public JoyStick ShootJoystick;
-    public JoyStick MoveJoystick;
+    public IJoyStick ShootJoystick;
+    public IJoyStick MoveJoystick;
+
+    public GameObject ShootJoyStickGameObject;
+    public GameObject MoveJoyStickGameObject;
 
     public bool CanShoot;
     public float ShootRate;
     private float NextShoot;
 
     // Start is called before the first frame update
-    void Start()
+    public void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+
+        ShootJoystick = ShootJoyStickGameObject.GetComponent<IJoyStick>();
+        MoveJoystick = MoveJoyStickGameObject.GetComponent<IJoyStick>();
     }
 
     // Update is called once per frame
