@@ -499,6 +499,7 @@ F:\WK_Projects\Asteroids\Temp\bin\Debug\Boo.Lang.PatternMatching.dll
 F:\WK_Projects\Asteroids\Temp\bin\Debug\Boo.Lang.Parser.dll
 F:\WK_Projects\Asteroids\Temp\bin\Debug\Boo.Lang.Useful.dll
 F:\WK_Projects\Asteroids\Temp\bin\Debug\Unity.CecilTools.dll
+F:\WK_Projects\Asteroids\Temp\bin\Debug\Assembly-CSharp.pdb
 F:\WK_Projects\Asteroids\Temp\bin\Debug\UnityEngine.xml
 F:\WK_Projects\Asteroids\Temp\bin\Debug\UnityEditor.xml
 F:\WK_Projects\Asteroids\Temp\bin\Debug\UnityEditor.TestRunner.pdb
@@ -579,4 +580,3 @@ F:\WK_Projects\Asteroids\obj\Debug\Assembly-CSharp-Editor.csproj.CoreCompileInpu
 F:\WK_Projects\Asteroids\obj\Debug\Assembly-CSharp-Editor.csproj.CopyComplete
 F:\WK_Projects\Asteroids\obj\Debug\Assembly-CSharp-Editor.dll
 F:\WK_Projects\Asteroids\obj\Debug\Assembly-CSharp-Editor.pdb
-F:\WK_Projects\Asteroids\Temp\bin\Debug\Assembly-CSharp.pdb

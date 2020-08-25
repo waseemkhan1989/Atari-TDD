@@ -21,10 +21,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 683, y: 694}
-  m_MaxSize: {x: 14004, y: 18044}
+  m_MinSize: {x: 683, y: 522}
+  m_MaxSize: {x: 12008, y: 12022}
   vertical: 0
-  controlID: 13011
+  controlID: 3444
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -62,8 +62,8 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -543.5
-    m_HBaseRangeMax: 543.5
+    m_HBaseRangeMin: -203.5
+    m_HBaseRangeMax: 203.5
     m_VBaseRangeMin: -114.5
     m_VBaseRangeMax: 114.5
     m_HAllowExceedBaseRangeMin: 1
@@ -127,10 +127,10 @@ MonoBehaviour:
     y: 0
     width: 1375
     height: 947
-  m_MinSize: {x: 406, y: 694}
-  m_MaxSize: {x: 10002, y: 18044}
+  m_MinSize: {x: 406, y: 522}
+  m_MaxSize: {x: 8006, y: 12022}
   vertical: 1
-  controlID: 13012
+  controlID: 3415
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -155,7 +155,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 422}
   m_MaxSize: {x: 8006, y: 8022}
   vertical: 0
-  controlID: 13013
+  controlID: 3416
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -213,7 +213,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 74fbffff68300000a4300000
+      m_ExpandedIDs: faddffff72deffffcadeffff94e1ffffece1ffff40e2ffff24e6ffff1ce7ffff9eecffff78edffff0af3ffff74fbffffe43f00005e400000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -261,7 +261,7 @@ MonoBehaviour:
   m_MinSize: {x: 204, y: 422}
   m_MaxSize: {x: 4004, y: 8022}
   vertical: 1
-  controlID: 12934
+  controlID: 3379
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -325,9 +325,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 6.364423, y: 3.803533, z: -2.3554688}
+    m_Target: {x: -5.727755, y: -2.7844536, z: -2.851863}
     speed: 2
-    m_Value: {x: 6.364423, y: 3.803533, z: -2.3554688}
+    m_Value: {x: -5.727755, y: -2.7844536, z: -2.851863}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -360,9 +360,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 12.973238
+    m_Target: 35.262463
     speed: 2
-    m_Value: 12.973238
+    m_Value: 35.262463
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -433,8 +433,8 @@ MonoBehaviour:
     y: 405
     width: 1089
     height: 265
-  m_MinSize: {x: 204, y: 222}
-  m_MaxSize: {x: 4004, y: 4022}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 2}
   m_Panes:
   - {fileID: 2}
@@ -459,14 +459,14 @@ MonoBehaviour:
     y: 670
     width: 1375
     height: 277
-  m_MinSize: {x: 232, y: 272}
-  m_MaxSize: {x: 10002, y: 10022}
-  m_ActualView: {fileID: 13}
+  m_MinSize: {x: 102, y: 122}
+  m_MaxSize: {x: 4002, y: 4022}
+  m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 13}
   - {fileID: 14}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -517,9 +517,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: ac2c0000
-    m_LastClickedID: 11436
-    m_ExpandedIDs: 00000000ac2c000000ca9a3b
+    m_SelectedIDs: b42c0000
+    m_LastClickedID: 11444
+    m_ExpandedIDs: 00000000b42c000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -547,7 +547,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ac2c000000ca9a3b
+    m_ExpandedIDs: 00000000b42c000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -572,8 +572,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: de300000
-    m_LastClickedInstanceID: 12510
+    m_SelectedInstanceIDs: b42c0000
+    m_LastClickedInstanceID: 11444
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000e8390000fc2d00007a2e0000042e0000
     m_RenameOverlay:
@@ -692,7 +692,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
-  m_LastInspectedObjectInstanceID: 12510
+  m_LastInspectedObjectInstanceID: 16390
   m_LastVerticalScrollValue: 0
 --- !u!114 &17
 MonoBehaviour:
@@ -714,9 +714,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 2993
+    x: 1375
     y: 73
-    width: 845
+    width: 543
     height: 928
   m_ViewDataDictionary: {fileID: 0}
   m_TestTypeToolbarIndex: 1
@@ -778,9 +778,9 @@ MonoBehaviour:
       uniqueId: '[Asteroids][suite]'
       name: Asteroids
       fullName: Asteroids
-      resultStatus: 1
-      duration: 0.1190273
-      messages: 
+      resultStatus: 2
+      duration: 0.2038113
+      messages: One or more child tests had errors
       output: 
       stacktrace: 
       notRunnable: 0
@@ -794,9 +794,9 @@ MonoBehaviour:
       uniqueId: '[F:/WK_Projects/Asteroids/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll][suite]'
       name: Assembly-CSharp-Editor.dll
       fullName: F:/WK_Projects/Asteroids/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
-      resultStatus: 1
-      duration: 0.0233113
-      messages: 
+      resultStatus: 2
+      duration: 0.0530907
+      messages: One or more child tests had errors
       output: 
       stacktrace: 
       notRunnable: 0
@@ -806,13 +806,79 @@ MonoBehaviour:
       categories: []
       parentId: 1002
       parentUniqueId: '[Asteroids][suite]'
+    - id: 1010
+      uniqueId: Assembly-CSharp-Editor.dll/[Editor][suite]
+      name: Editor
+      fullName: Editor
+      resultStatus: 1
+      duration: 0.0871337
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1009
+      parentUniqueId: '[F:/WK_Projects/Asteroids/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll][suite]'
+    - id: 1006
+      uniqueId: Assembly-CSharp-Editor.dll/Editor/[Assembly-CSharp-Editor][Editor.Asteroid_test][suite]
+      name: Asteroid_test
+      fullName: Editor.Asteroid_test
+      resultStatus: 1
+      duration: 0.0776635
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1010
+      parentUniqueId: Assembly-CSharp-Editor.dll/[Editor][suite]
+    - id: 1007
+      uniqueId: Assembly-CSharp-Editor.dll/Editor/Asteroid_test/[Assembly-CSharp-Editor][Editor.Asteroid_test.Should_CalculateCorrectDirection]
+      name: Should_CalculateCorrectDirection
+      fullName: Editor.Asteroid_test.Should_CalculateCorrectDirection
+      resultStatus: 1
+      duration: 0.0464697
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1006
+      parentUniqueId: Assembly-CSharp-Editor.dll/Editor/[Assembly-CSharp-Editor][Editor.Asteroid_test][suite]
+    - id: 1008
+      uniqueId: Assembly-CSharp-Editor.dll/Editor/Asteroid_test/[Assembly-CSharp-Editor][Editor.Asteroid_test.Should_DestroyAsteroid_When_OutOfBounds]
+      name: Should_DestroyAsteroid_When_OutOfBounds
+      fullName: Editor.Asteroid_test.Should_DestroyAsteroid_When_OutOfBounds
+      resultStatus: 1
+      duration: 0.0020349
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1006
+      parentUniqueId: Assembly-CSharp-Editor.dll/Editor/[Assembly-CSharp-Editor][Editor.Asteroid_test][suite]
     - id: 1003
       uniqueId: Assembly-CSharp-Editor.dll/[Assembly-CSharp-Editor][SpaceshipTest][suite]
       name: SpaceshipTest
       fullName: SpaceshipTest
-      resultStatus: 1
-      duration: 0.005905
-      messages: 
+      resultStatus: 2
+      duration: 0.020329
+      messages: One or more child tests had errors
       output: 
       stacktrace: 
       notRunnable: 0
@@ -822,32 +888,20 @@ MonoBehaviour:
       categories: []
       parentId: 1006
       parentUniqueId: '[F:/WK_Projects/Asteroids/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll][suite]'
-    - id: 1005
-      uniqueId: Assembly-CSharp-Editor.dll/SpaceshipTest/[Assembly-CSharp-Editor][SpaceshipTest.Move]
-      name: Move
-      fullName: SpaceshipTest.Move
-      resultStatus: 1
-      duration: 0.0007534
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1003
-      parentUniqueId: Assembly-CSharp-Editor.dll/[Assembly-CSharp-Editor][SpaceshipTest][suite]
     - id: 1004
       uniqueId: Assembly-CSharp-Editor.dll/SpaceshipTest/[Assembly-CSharp-Editor][SpaceshipTest.MovementTest]
       name: MovementTest
       fullName: SpaceshipTest.MovementTest
-      resultStatus: 1
-      duration: 0.0003224
-      messages: 
+      resultStatus: 2
+      duration: 0.0013958
+      messages: 'System.NullReferenceException : Object reference not set to an instance
+        of an object'
       output: 
-      stacktrace: 
+      stacktrace: "  at SpaceshipTest.MovementTest () [0x00001] in F:\\WK_Projects\\Asteroids\\Assets\\Editor\\SpaceshipTest.cs:47
+        \r\n  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)\r\n
+        \ at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags
+        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo
+        culture) [0x00032] in <567df3e0919241ba98db88bec4c6696f>:0 "
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -856,13 +910,90 @@ MonoBehaviour:
       - Uncategorized
       parentId: 1003
       parentUniqueId: Assembly-CSharp-Editor.dll/[Assembly-CSharp-Editor][SpaceshipTest][suite]
-    m_ResultText: Move (0.001s)
-    m_ResultStacktrace: 
+    - id: 1005
+      uniqueId: Assembly-CSharp-Editor.dll/SpaceshipTest/[Assembly-CSharp-Editor][SpaceshipTest.RotationTest]
+      name: RotationTest
+      fullName: SpaceshipTest.RotationTest
+      resultStatus: 2
+      duration: 0.0007842
+      messages: 'System.NullReferenceException : Object reference not set to an instance
+        of an object'
+      output: 
+      stacktrace: "  at SpaceshipTest.RotationTest () [0x00001] in F:\\WK_Projects\\Asteroids\\Assets\\Editor\\SpaceshipTest.cs:91
+        \r\n  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)\r\n
+        \ at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags
+        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo
+        culture) [0x00032] in <567df3e0919241ba98db88bec4c6696f>:0 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - UnityTest
+      parentId: 1001
+      parentUniqueId: Assembly-CSharp-Editor.dll/[Assembly-CSharp-Editor][SpaceshipTest][suite]
+    - id: 1004
+      uniqueId: Assembly-CSharp-Editor.dll/SpaceshipTest/[Assembly-CSharp-Editor][SpaceshipTest.ShootTest]
+      name: ShootTest
+      fullName: SpaceshipTest.ShootTest
+      resultStatus: 2
+      duration: 0.0010521
+      messages: 'System.NullReferenceException : Object reference not set to an instance
+        of an object'
+      output: 
+      stacktrace: "  at Spaceship.Shoot () [0x0000d] in F:\\WK_Projects\\Asteroids\\Assets\\Scripts\\Spaceship.cs:75
+        \r\n  at Spaceship.Update () [0x00062] in F:\\WK_Projects\\Asteroids\\Assets\\Scripts\\Spaceship.cs:48
+        \r\n  at SpaceshipTest.ShootTest () [0x0001a] in F:\\WK_Projects\\Asteroids\\Assets\\Editor\\SpaceshipTest.cs:82
+        \r\n  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)\r\n
+        \ at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags
+        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo
+        culture) [0x00032] in <567df3e0919241ba98db88bec4c6696f>:0 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - UnityTest
+      parentId: 1001
+      parentUniqueId: Assembly-CSharp-Editor.dll/[Assembly-CSharp-Editor][SpaceshipTest][suite]
+    - id: 1003
+      uniqueId: Assembly-CSharp-Editor.dll/SpaceshipTest/[Assembly-CSharp-Editor][SpaceshipTest.Should_TurnRight]
+      name: Should_TurnRight
+      fullName: SpaceshipTest.Should_TurnRight
+      resultStatus: 2
+      duration: 0.0031921
+      messages: 
+      output: 
+      stacktrace: "at SpaceshipTest.Should_TurnRight () [0x0002d] in F:\\WK_Projects\\Asteroids\\Assets\\Editor\\SpaceshipTest.cs:65\r\n"
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - UnityTest
+      parentId: 1001
+      parentUniqueId: Assembly-CSharp-Editor.dll/[Assembly-CSharp-Editor][SpaceshipTest][suite]
+    m_ResultText: "ShootTest (0.001s)\n---\nSystem.NullReferenceException : Object
+      reference not set to an instance of an object\n---\nat Spaceship.Shoot () [0x0000d]
+      in F:\\WK_Projects\\Asteroids\\Assets\\Scripts\\Spaceship.cs:75 \r\n  at Spaceship.Update
+      () [0x00062] in F:\\WK_Projects\\Asteroids\\Assets\\Scripts\\Spaceship.cs:48
+      \r\n  at SpaceshipTest.ShootTest () [0x0001a] in F:\\WK_Projects\\Asteroids\\Assets\\Editor\\SpaceshipTest.cs:82
+      \r\n  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)\r\n
+      \ at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags
+      invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo
+      culture) [0x00032] in <567df3e0919241ba98db88bec4c6696f>:0"
+    m_ResultStacktrace: "  at Spaceship.Shoot () [0x0000d] in F:\\WK_Projects\\Asteroids\\Assets\\Scripts\\Spaceship.cs:75
+      \r\n  at Spaceship.Update () [0x00062] in F:\\WK_Projects\\Asteroids\\Assets\\Scripts\\Spaceship.cs:48
+      \r\n  at SpaceshipTest.ShootTest () [0x0001a] in F:\\WK_Projects\\Asteroids\\Assets\\Editor\\SpaceshipTest.cs:82
+      \r\n  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)\r\n
+      \ at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags
+      invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo
+      culture) [0x00032] in <567df3e0919241ba98db88bec4c6696f>:0 "
     m_TestListState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 0992650e
-      m_LastClickedID: 241537545
-      m_ExpandedIDs: 7d5e9fa8bc2e78f1bad3e9165c9fc92428c00b425248c052c002ca65be42346644bd3f6cf766a37231979b7dffffff7f
+      m_SelectedIDs: b9199a7f
+      m_LastClickedID: 2140805561
+      m_ExpandedIDs: 7d5e9fa8def040c3bc2e78f1bad3e9165c9fc92428c00b425248c052ac562462c002ca65be42346644bd3f6cf766a37231979b7dffffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -888,3 +1019,4 @@ MonoBehaviour:
       selectedCategoryMask: 0
       availableCategories:
       - Uncategorized
+      - UnityTest

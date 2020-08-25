@@ -1,4 +1,54 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=f6c6bff0_002D6a9c_002D4685_002Daeed_002D9f04d382bc68/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="All tests from Solution" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;Solution /&gt;&#xD;
-&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=1c8796fc_002D2ed1_002D4261_002Da4dd_002D4e43869aa268/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Should_CalculateCorrectDirection #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::56D710A2-3B09-32A4-E032-F4DBA21C1726::.NETFramework,Version=v4.7.1::Editor.Asteroid_test.Should_CalculateCorrectDirection&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=38814093_002D99db_002D400e_002D93be_002D8bfdb56c2998/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Should_CalculateCorrectDirection" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::56D710A2-3B09-32A4-E032-F4DBA21C1726::.NETFramework,Version=v4.7.1::Editor.Asteroid_test.Should_CalculateCorrectDirection&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=4342ee1d_002Dc22b_002D47e6_002Da7cb_002De3aa6f2d03ea/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="MovementTest #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::56D710A2-3B09-32A4-E032-F4DBA21C1726::.NETFramework,Version=v4.7.1::SpaceshipTest.MovementTest&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=44fb9b76_002D5dcf_002D4bf7_002Da40e_002D700d16732059/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="MovementTest #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::56D710A2-3B09-32A4-E032-F4DBA21C1726::.NETFramework,Version=v4.7.1::SpaceshipTest.MovementTest&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=4ec0d23c_002Dcc48_002D448a_002Db2f2_002D09cc8d20757a/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Should_CalculateCorrectDirection #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::56D710A2-3B09-32A4-E032-F4DBA21C1726::.NETFramework,Version=v4.7.1::Editor.Asteroid_test.Should_CalculateCorrectDirection&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=5283dca2_002D6c94_002D4507_002D804c_002D777e27bbd497/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Asteroid_test" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::56D710A2-3B09-32A4-E032-F4DBA21C1726::.NETFramework,Version=v4.7.1::Editor.Asteroid_test&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=9d40a093_002Dae62_002D48e3_002Db6a9_002D3a746f9112c5/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="MovementTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::56D710A2-3B09-32A4-E032-F4DBA21C1726::.NETFramework,Version=v4.7.1::SpaceshipTest.MovementTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::56D710A2-3B09-32A4-E032-F4DBA21C1726::.NETFramework,Version=v4.7.1::Editor.Asteroid_test.Should_DestroyAsteroid_When_OutOfBounds&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=b5075c06_002Db546_002D4160_002Db5d8_002D85aa53fafbc8/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ShootTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::56D710A2-3B09-32A4-E032-F4DBA21C1726::.NETFramework,Version=v4.7.1::SpaceshipTest.ShootTest&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=bba19503_002D1d11_002D4868_002Db758_002D2a464eb73434/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="MovementTest #4" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::56D710A2-3B09-32A4-E032-F4DBA21C1726::.NETFramework,Version=v4.7.1::SpaceshipTest.MovementTest&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=d9d6b7bd_002Dc6e9_002D4b09_002Dbe79_002D1f3b12e0f517/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Should_CalculateCorrectDirection #4" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::56D710A2-3B09-32A4-E032-F4DBA21C1726::.NETFramework,Version=v4.7.1::Editor.Asteroid_test.Should_CalculateCorrectDirection&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::56D710A2-3B09-32A4-E032-F4DBA21C1726::.NETFramework,Version=v4.7.1::SpaceshipTest.MovementTest&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	</wpf:ResourceDictionary>

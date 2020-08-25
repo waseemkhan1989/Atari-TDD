@@ -1,14 +1,17 @@
-﻿using System.Runtime.CompilerServices;
+﻿using System;
+using System.Collections;
 using MockClasses;
 using UnityEngine;
 using NUnit.Framework;
+using UnityEngine.TestTools;
+using Object = UnityEngine.Object;
 
 [TestFixture, Category("UnityTest")]
 public class SpaceshipTest
 {
     public Spaceship m_Spaceship;
     private GameObject m_Go;
-    private readonly Vector2 ActualOutput = new Vector2(5f,3f);
+    //private readonly Vector2 ActualOutput = new Vector2(5f,3f);
     private Rigidbody2D m_RigidBody;
 
     private GameObject ShootJoyStickGameObject;
@@ -31,29 +34,49 @@ public class SpaceshipTest
         MoveJoyStickGameObject = new GameObject("MoveJoyStickGameObject");
 
         MockMoveJoyStick = ShootJoyStickGameObject.AddComponent<JoyStickMock>();
-        MockShootJoyStick = ShootJoyStickGameObject.AddComponent<JoyStickMock>();
+        MockShootJoyStick = MoveJoyStickGameObject.AddComponent<JoyStickMock>();
 
         m_Spaceship.MoveJoyStickGameObject = MoveJoyStickGameObject;
         m_Spaceship.ShootJoyStickGameObject = ShootJoyStickGameObject;
         
         m_Spaceship.Start();
     }
-    
-   [Test]
+
+    [Test]
     public void MovementTest()
     {
         // Assert.IsNull(spaceship.MoveJoystick.InputDir, "x and y co-ordinates are NULL");
         // Assert.That(m_Spaceship.InputDir, Is.EqualTo(Vector2.zero));
         m_Spaceship.MoveJoystick.InputDir = new Vector3(5, 6, 6);
         m_Spaceship.MoveSpeed = 2f;
-        // m_Spaceship.Movement();
         m_Spaceship.Update();
-        
         Assert.That(m_RigidBody.position, Is.EqualTo(new Vector3(10, 12, 12)));
-        
         m_Spaceship.Update();
         Assert.That(m_RigidBody.position, Is.EqualTo(new Vector3(20, 24, 24)));
     }
+    
+    
+    
+    /*[UnityTest]
+    public IEnumerator MovementTest()
+    {
+        // Assert.IsNull(spaceship.MoveJoystick.InputDir, "x and y co-ordinates are NULL");
+        // Assert.That(m_Spaceship.InputDir, Is.EqualTo(Vector2.zero));
+        m_Spaceship.MoveJoystick.InputDir = new Vector3(5, 6, 6);
+        m_Spaceship.MoveSpeed = 2f;
+        // m_Spaceship.Movement();
+        // m_Spaceship.Update();
+        
+        // Assert.That(m_RigidBody.position, Is.EqualTo(new Vector3(10, 12, 12)));
+
+        var dateTime = DateTime.Now;
+        while (DateTime.Now < dateTime + TimeSpan.FromSeconds(1))
+        {
+            m_Spaceship.Update();
+            yield return null;
+        }
+        Assert.That(m_RigidBody.position, Is.EqualTo(new Vector3(20, 24, 24)));
+    }*/
 
     [Test]
     public void Should_TurnRight()
@@ -81,8 +104,8 @@ public class SpaceshipTest
         
         m_Spaceship.Update();
 
-        var bulltes = GameObject.FindObjectsOfType<Bullet>();
-        Assert.That(bulltes.Length, Is.EqualTo(2));
+        var bullets = GameObject.FindObjectsOfType<Bullet>();
+        Assert.That(bullets.Length, Is.EqualTo(2));
     }
     
     [Test]
@@ -99,11 +122,10 @@ public class SpaceshipTest
     [TearDown]
     public void TearDown()
     {
-        Object.Destroy(m_Go);
+        Object.DestroyImmediate(m_Go);
         
         Object.DestroyImmediate(ShootJoyStickGameObject);
         Object.DestroyImmediate(MoveJoyStickGameObject);
-        
     }
 }
 

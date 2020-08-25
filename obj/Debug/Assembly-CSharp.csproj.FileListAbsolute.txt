@@ -275,10 +275,6 @@ F:\WK Projects\Asteroids\Temp\bin\Debug\Boo.Lang.Compiler.dll
 F:\WK Projects\Asteroids\Temp\bin\Debug\Boo.Lang.PatternMatching.dll
 F:\WK Projects\Asteroids\Temp\bin\Debug\Boo.Lang.Parser.dll
 F:\WK Projects\Asteroids\Temp\bin\Debug\Boo.Lang.Useful.dll
-F:\WK_Projects\Asteroids\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-F:\WK_Projects\Asteroids\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-F:\WK_Projects\Asteroids\obj\Debug\Assembly-CSharp.dll
-F:\WK_Projects\Asteroids\obj\Debug\Assembly-CSharp.pdb
 F:\WK_Projects\Asteroids\Temp\bin\Debug\Assembly-CSharp.dll
 F:\WK_Projects\Asteroids\Temp\bin\Debug\Assembly-CSharp.pdb
 F:\WK_Projects\Asteroids\Temp\bin\Debug\Boo.Lang.dll
@@ -551,4 +547,8 @@ F:\WK_Projects\Asteroids\Temp\bin\Debug\UnityEngine.WindModule.xml
 F:\WK_Projects\Asteroids\Temp\bin\Debug\UnityEngine.XRModule.xml
 F:\WK_Projects\Asteroids\Temp\bin\Debug\UnityEngine.ClusterInputModule.xml
 F:\WK_Projects\Asteroids\Temp\bin\Debug\UnityEngine.ClusterRendererModule.xml
+F:\WK_Projects\Asteroids\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+F:\WK_Projects\Asteroids\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
 F:\WK_Projects\Asteroids\obj\Debug\Assembly-CSharp.csproj.CopyComplete
+F:\WK_Projects\Asteroids\obj\Debug\Assembly-CSharp.dll
+F:\WK_Projects\Asteroids\obj\Debug\Assembly-CSharp.pdb
