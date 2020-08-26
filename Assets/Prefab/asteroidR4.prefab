@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1836200239150670808}
   - component: {fileID: 1836200239150670811}
   - component: {fileID: 1836200239150670810}
-  - component: {fileID: 1836200239150670813}
+  - component: {fileID: 9151809440997334009}
   m_Layer: 0
   m_Name: asteroidR4
   m_TagString: Untagged
@@ -171,7 +171,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &1836200239150670813
+--- !u!114 &9151809440997334009
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -180,10 +180,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1836200239150670812}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a18de974242fc042939deef2a315168, type: 3}
+  m_Script: {fileID: -1767713449, guid: 46380d6d7d7d08f4abf3a53a146fb917, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 8
+  speed: 11
   direction: {x: 0, y: 0, z: 0}
   boundLeft: 0
   boundRight: 0

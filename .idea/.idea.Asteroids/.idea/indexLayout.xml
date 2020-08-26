@@ -3,6 +3,7 @@
   <component name="ContentModelUserStore">
     <attachedFolders />
     <explicitIncludes>
+      <Path>Assets</Path>
       <Path>Library/PackageCache/com.unity.collab-proxy@1.2.16</Path>
       <Path>Library/PackageCache/com.unity.ext.nunit@1.0.0</Path>
       <Path>Library/PackageCache/com.unity.ide.rider@1.1.0</Path>
@@ -17,11 +18,15 @@
       <Path>.idea</Path>
       <Path>.vs</Path>
       <Path>Asteroid</Path>
+      <Path>ClassLibrary1</Path>
       <Path>Library</Path>
       <Path>Logs</Path>
       <Path>SpaceShipTests</Path>
-      <Path>Temp</Path>
       <Path>UserSettings</Path>
+      <Path>WK.Core</Path>
+      <Path>WK.Core.Tests</Path>
+      <Path>WK.Core.TestsUnity</Path>
+      <Path>WK.Core.TestsUnity.Playmode</Path>
       <Path>obj</Path>
     </explicitExcludes>
   </component>

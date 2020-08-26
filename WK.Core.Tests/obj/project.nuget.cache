@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "aLmResHD6pX/uzDYdrFWl3YfFoD4l7htuwRma0R1b3a5Bmr/SBWo2+bS88tdezZAprcFFA3hUHa5GkuhA3GUdg==",
+  "success": true,
+  "projectFilePath": "F:\\WK_Projects\\Asteroids\\WK.Core.Tests\\WK.Core.Tests.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\wsk\\.nuget\\packages\\nunit\\3.5.0\\nunit.3.5.0.nupkg.sha512",
+    "C:\\Users\\wsk\\.nuget\\packages\\unity.unityengine\\2019.4.0\\unity.unityengine.2019.4.0.nupkg.sha512",
+    "C:\\Users\\wsk\\.nuget\\packages\\unity.unityengine.ui\\2019.4.0\\unity.unityengine.ui.2019.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}

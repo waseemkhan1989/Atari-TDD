@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 266849701867325073}
   - component: {fileID: 266849701867325072}
   - component: {fileID: 266849701867325075}
-  - component: {fileID: 266849701867325074}
+  - component: {fileID: 3377537022743498022}
   m_Layer: 0
   m_Name: Astrd1
   m_TagString: Untagged
@@ -140,7 +140,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &266849701867325074
+--- !u!114 &3377537022743498022
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -149,12 +149,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 266849701867325069}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a18de974242fc042939deef2a315168, type: 3}
+  m_Script: {fileID: -1767713449, guid: 46380d6d7d7d08f4abf3a53a146fb917, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 17
+  speed: 8
   direction: {x: 0, y: 0, z: 0}
-  boundLeft: -18
-  boundRight: 18
-  boundUp: 11
-  boundDown: -11
+  boundLeft: 0
+  boundRight: 0
+  boundUp: 0
+  boundDown: 0

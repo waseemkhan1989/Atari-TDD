@@ -56,8 +56,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Editor\Asteroid_test.cs" />
-     <Compile Include="Assets\Editor\SpaceshipTest.cs" />
  <Reference Include="UnityEditor.TestRunner">
  <HintPath>F:/WK_Projects/Asteroids/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
  </Reference>
@@ -279,6 +277,15 @@
  </Reference>
  <Reference Include="UnityEditor.Android.Extensions">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.19f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="WK.Core.TestsUnity.Playmode">
+ <HintPath>F:/WK_Projects/Asteroids/Assets/WK/Tests/WK.Core.TestsUnity.Playmode.dll</HintPath>
+ </Reference>
+ <Reference Include="WK.Core.TestsUnity">
+ <HintPath>F:/WK_Projects/Asteroids/Assets/WK/Editor/WK.Core.TestsUnity.dll</HintPath>
+ </Reference>
+ <Reference Include="WK.Core">
+ <HintPath>F:/WK_Projects/Asteroids/Assets/WK/Plugins/WK.Core.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
  <HintPath>F:/WK_Projects/Asteroids/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
@@ -643,6 +650,13 @@
       <Project>{70261382-45EB-0236-7EA2-855FCD841B8F}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
+    <ProjectReference Include="Scripts.csproj">
+      <Project>{A2A5A662-7BFD-AEE7-ED0E-5C03D4644D7E}</Project>
+      <Name>Scripts</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Assets\Editor" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d4e7edac-91fb-453e-b8da-43b6cd80a739" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/.idea.Asteroids/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/.idea.Asteroids/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assembly-CSharp-Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../Assembly-CSharp-Editor.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Asteroids.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Asteroids.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Bullet.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Bullet.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Editor/SpaceshipTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Assets/Editor/SpaceshipTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/PlaymodeTests.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/PlaymodeTests/PlaymodeTests.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/PlaymodeTests/PlaymodeTests.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Spawner.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Spawner.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Tests/Tests.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/../Assets/Tests/Tests.asmdef" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Asteroids.sln" beforeDir="false" afterPath="$PROJECT_DIR$/../Asteroids.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Library/EditorUserBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../Library/EditorUserBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../Library/SceneVisibilityState.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Library/ScriptAssemblies/Assembly-CSharp-Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Library/ScriptAssemblies/Assembly-CSharp-Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Library/ScriptAssemblies/Assembly-CSharp-Editor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../Library/ScriptAssemblies/Assembly-CSharp-Editor.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Library/ScriptAssemblies/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../Library/ScriptAssemblies/Assembly-CSharp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Library/ScriptAssemblies/Unity.Rider.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Library/ScriptAssemblies/Unity.Rider.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Library/ScriptAssemblies/Unity.TextMeshPro.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Library/ScriptAssemblies/Unity.TextMeshPro.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Library/ScriptAssemblies/Unity.Timeline.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Library/ScriptAssemblies/Unity.Timeline.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Library/ScriptAssemblies/Unity.Timeline.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Library/ScriptAssemblies/Unity.Timeline.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Library/ScriptAssemblies/Unity.VSCode.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Library/ScriptAssemblies/Unity.VSCode.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Library/ScriptAssemblies/UnityEditor.TestRunner.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Library/ScriptAssemblies/UnityEditor.TestRunner.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Library/ScriptAssemblies/UnityEditor.UI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Library/ScriptAssemblies/UnityEditor.UI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Library/ScriptAssemblies/UnityEngine.TestRunner.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Library/ScriptAssemblies/UnityEngine.TestRunner.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Library/ScriptAssemblies/UnityEngine.UI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Library/ScriptAssemblies/UnityEngine.UI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Library/StateCache/Hierarchy/419465-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Library/StateCache/Hierarchy/419465-mainStage.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Library/assetDatabase3" beforeDir="false" afterPath="$PROJECT_DIR$/../Library/assetDatabase3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Library/metadata/3e/3e3d08e730fd48c789583768ad3f862f" beforeDir="false" afterPath="$PROJECT_DIR$/../Library/metadata/3e/3e3d08e730fd48c789583768ad3f862f" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Library/metadata/64/647f97559b4b45a47ab8746c58138778" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Library/metadata/64/647f97559b4b45a47ab8746c58138778.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Library/metadata/7a/7a18de974242fc042939deef2a315168" beforeDir="false" afterPath="$PROJECT_DIR$/../Library/metadata/7a/7a18de974242fc042939deef2a315168" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Library/metadata/a1/a1bdd21289ab85449b39af808a2fe4c9" beforeDir="false" afterPath="$PROJECT_DIR$/../Library/metadata/a1/a1bdd21289ab85449b39af808a2fe4c9" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Library/metadata/de/de541fa62453cc54db706356d7280dea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Library/metadata/de/de541fa62453cc54db706356d7280dea.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Library/metadata/e8/e84f76d852456c74c9a5ac53a042827d" beforeDir="false" afterPath="$PROJECT_DIR$/../Library/metadata/e8/e84f76d852456c74c9a5ac53a042827d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Library/metadata/e8/e8c4a5032b9e45d3b2457b660ea758ff" beforeDir="false" afterPath="$PROJECT_DIR$/../Library/metadata/e8/e8c4a5032b9e45d3b2457b660ea758ff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PlaymodeTests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../PlaymodeTests.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../Tests.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../obj/Debug/Assembly-CSharp-Editor.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../obj/Debug/Assembly-CSharp-Editor.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../obj/Debug/Assembly-CSharp-Editor.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../obj/Debug/Assembly-CSharp-Editor.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../obj/Debug/Assembly-CSharp.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../obj/Debug/Assembly-CSharp.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../obj/Debug/PlaymodeTests.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../obj/Debug/PlaymodeTests.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../obj/Debug/PlaymodeTests.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../obj/Debug/PlaymodeTests.csprojAssemblyReference.cache" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/ClassLibrary1/Class1.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectId" id="1gaHW4nwnbeFzQZhsy3ylilqLJh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d4e7edac-91fb-453e-b8da-43b6cd80a739" name="Default Changelist" comment="" />
+      <created>1598345811346</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598345811346</updated>
+      <workItem from="1598345821203" duration="3000" />
+    </task>
+    <servers />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>
